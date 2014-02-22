@@ -1,0 +1,11 @@
+{
+    "name": "node-simplelogger",
+    "description": "This is a simple logger for NodeJS. Log to file and stdout - or just one of them",
+    "author": {
+        "name": "Ole-Kenneth Rangnes",
+        "email": "ok@rait.no",
+        "url": "http://olekenneth.com"
+    },
+    "main" : "logger",
+    "version" : "1.0.0"
+}
