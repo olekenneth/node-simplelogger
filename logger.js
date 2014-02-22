@@ -24,7 +24,7 @@ Logger.prototype.log = function(message) {
         if (!this.options) this.setOptions();
         
         if (this.options.consoleLog) console.log(message);
-        this.logger.write(new Date() + ' ' + JSON.stringify(message) + "\n");
+        if (this.logger) this.logger.write(new Date() + ' ' + JSON.stringify(message) + "\n");
     }
 };
 
